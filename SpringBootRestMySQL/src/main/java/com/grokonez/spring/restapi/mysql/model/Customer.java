@@ -32,6 +32,13 @@ public class Customer {
 		this.age = age;
 		this.active = false;
 	}
+	
+	
+	
+	public void setId(long id) {
+		this.id = id;
+	}
+	
 
 	public long getId() {
 		return id;
